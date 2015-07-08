@@ -8,7 +8,13 @@
       "email": "kronox@shaw.ca"
     }
   ],
-  "keywords": ["common"],
+  "keywords": [
+    "common",
+    "symfony2",
+    "metronic",
+    "cms",
+    "admin"
+  ],
   "license": ["MIT"],
   "require": {
     "friendsofsymfony/rest-bundle": "^1.7",
