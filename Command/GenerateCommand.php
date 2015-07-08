@@ -32,7 +32,7 @@ EOT
     protected function execute( InputInterface $input, OutputInterface $output )
     {
         $kernel                  = $this->getContainer()->get( 'kernel' );
-        $this->bundleSkeletonDir = $kernel->locateResource( '@CoreSysCommonBundle/Resource/skeleton/bundle' );
+        $this->bundleSkeletonDir = $kernel->locateResource( '@CoreSysCommonBundle/Resources/skeleton/bundle' );
         $dest                    = $kernel->getRootDir() . '/../src';
         $configuration           = array(
             'application_dir' => sprintf( '%s/Application', $dest )
