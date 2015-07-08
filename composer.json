@@ -1,0 +1,26 @@
+{
+  "name": "coresys/common-bundle",
+  "description": "Common functionality for use in various projects",
+  "type": "symfony-bundle",
+  "authors": [
+    {
+      "name": "Josh McCrieght",
+      "email": "kronox@shaw.ca"
+    }
+  ],
+  "keywords": ["common"],
+  "license": ["MIT"],
+  "require": {
+    "friendsofsymfony/rest-bundle": "^1.7",
+    "friendsofsymfony/jsrouting-bundle": "^1.5",
+    "jms/serializer-bundle": "^1.0",
+    "nelmio/api-doc-bundle": "^2.9"
+  },
+  "autoload": {
+    "psr-0": {
+      "CoreSys\\CommonBundle": ""
+    }
+  },
+  "target-dir": "CoreSys/CommonBundle",
+  "repositories" : [{}]
+}
